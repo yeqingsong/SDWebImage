@@ -43,8 +43,8 @@
 //    [self chooseSort];
 //    [self quickSort];
 //    [self shellSort];
-    [self heapSort];
-    [self mergingSort];
+//    [self heapSort];
+//    [self mergingSort];
     NSLog(@"%@",dataArray);
 }
 - (void)heapSort{
@@ -71,7 +71,7 @@
 }
 - (void)merging:(NSInteger)left right:(NSInteger)right{
     for (NSInteger i = left; i<=right; i++) {
-        [mergeArray addObject:<#(nonnull id)#>]
+        [mergeArray addObject:@""];
     }
     NSInteger l = left;
     NSInteger r = right;
