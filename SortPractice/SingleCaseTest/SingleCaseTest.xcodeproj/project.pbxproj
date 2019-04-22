@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD6C92FD22657858004991DB /* peopleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6C92FC22657858004991DB /* peopleModel.m */; };
 		DDE651B9225B4AD400633517 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE651B8225B4AD400633517 /* AppDelegate.m */; };
 		DDE651BC225B4AD400633517 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE651BB225B4AD400633517 /* ViewController.m */; };
 		DDE651BF225B4AD400633517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE651BD225B4AD400633517 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD6C92FB22657858004991DB /* peopleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = peopleModel.h; sourceTree = "<group>"; };
+		DD6C92FC22657858004991DB /* peopleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = peopleModel.m; sourceTree = "<group>"; };
 		DDE651B4225B4AD400633517 /* SingleCaseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleCaseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE651B7225B4AD400633517 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDE651B8225B4AD400633517 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				DDE651B8225B4AD400633517 /* AppDelegate.m */,
 				DDE651BA225B4AD400633517 /* ViewController.h */,
 				DDE651BB225B4AD400633517 /* ViewController.m */,
+				DD6C92FB22657858004991DB /* peopleModel.h */,
+				DD6C92FC22657858004991DB /* peopleModel.m */,
 				DDE651E9225B4AFF00633517 /* SingleModel.h */,
 				DDE651EA225B4AFF00633517 /* SingleModel.m */,
 				DDE651BD225B4AD400633517 /* Main.storyboard */,
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDE651BC225B4AD400633517 /* ViewController.m in Sources */,
+				DD6C92FD22657858004991DB /* peopleModel.m in Sources */,
 				DDE651C7225B4AE100633517 /* main.m in Sources */,
 				DDE651B9225B4AD400633517 /* AppDelegate.m in Sources */,
 				DDE651EB225B4AFF00633517 /* SingleModel.m in Sources */,
