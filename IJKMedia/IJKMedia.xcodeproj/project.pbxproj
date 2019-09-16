@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D2C99D17F63349FF310B5E3 /* libPods-IJKMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB0B6E97F11782113ED2AB2 /* libPods-IJKMedia.a */; };
+		65DAE80FC17921F7895D7831 /* libPods-IJKMediaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A8C7C56E0176AA6E5579F9 /* libPods-IJKMediaTests.a */; };
+		6ED1C7B41F4D844FBED34096 /* libPods-IJKMediaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 524D7CB6FA147E28D6D119AA /* libPods-IJKMediaUITests.a */; };
+		DD12B94F2282697700A9041C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD12B94E2282697700A9041C /* AppDelegate.m */; };
+		DD12B9522282697700A9041C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD12B9512282697700A9041C /* ViewController.m */; };
+		DD12B9552282697700A9041C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD12B9532282697700A9041C /* Main.storyboard */; };
+		DD12B9572282697900A9041C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD12B9562282697900A9041C /* Assets.xcassets */; };
+		DD12B95A2282697900A9041C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD12B9582282697900A9041C /* LaunchScreen.storyboard */; };
+		DD12B95D2282697900A9041C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD12B95C2282697900A9041C /* main.m */; };
+		DD12B9672282697900A9041C /* IJKMediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD12B9662282697900A9041C /* IJKMediaTests.m */; };
+		DD12B9722282697900A9041C /* IJKMediaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD12B9712282697900A9041C /* IJKMediaUITests.m */; };
+		DD12B980228269A000A9041C /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B97F228269A000A9041C /* IJKMediaFramework.framework */; };
+		DD12B98322826B4200A9041C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B98222826B4200A9041C /* libz.tbd */; };
+		DD12B98522826B5100A9041C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B98422826B5100A9041C /* libc++.tbd */; };
+		DD12B98722826B5900A9041C /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B98622826B5900A9041C /* libbz2.tbd */; };
+		DD12B98922826B6C00A9041C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B98822826B6C00A9041C /* AudioToolbox.framework */; };
+		DD12B98B22826B7400A9041C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B98A22826B7400A9041C /* UIKit.framework */; };
+		DD12B98D22826B7D00A9041C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B98C22826B7D00A9041C /* CoreGraphics.framework */; };
+		DD12B98F22826B8200A9041C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B98E22826B8200A9041C /* AVFoundation.framework */; };
+		DD12B99122826B8800A9041C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B99022826B8800A9041C /* CoreMedia.framework */; };
+		DD12B99322826B8D00A9041C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B99222826B8D00A9041C /* CoreVideo.framework */; };
+		DD12B99522826B9200A9041C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B99422826B9200A9041C /* MediaPlayer.framework */; };
+		DD12B99722826B9900A9041C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B99622826B9900A9041C /* MobileCoreServices.framework */; };
+		DD12B99922826BA500A9041C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B99822826BA500A9041C /* OpenGLES.framework */; };
+		DD12B99B22826BAB00A9041C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B99A22826BAB00A9041C /* QuartzCore.framework */; };
+		DD12B99D22826BB200A9041C /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD12B99C22826BB200A9041C /* VideoToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD12B9632282697900A9041C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD12B9422282697700A9041C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD12B9492282697700A9041C;
+			remoteInfo = IJKMedia;
+		};
+		DD12B96E2282697900A9041C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD12B9422282697700A9041C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD12B9492282697700A9041C;
+			remoteInfo = IJKMedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025B8E758EA84F65E083825C /* Pods-IJKMediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IJKMediaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IJKMediaUITests/Pods-IJKMediaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		157E208E47C14792299B9721 /* Pods-IJKMediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IJKMediaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IJKMediaTests/Pods-IJKMediaTests.release.xcconfig"; sourceTree = "<group>"; };
+		22A8C7C56E0176AA6E5579F9 /* libPods-IJKMediaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IJKMediaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		301AC0443AE4B7BD38A70E33 /* Pods-IJKMedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IJKMedia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IJKMedia/Pods-IJKMedia.debug.xcconfig"; sourceTree = "<group>"; };
+		4F13D453A4C8690A6479FAEF /* Pods-IJKMedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IJKMedia.release.xcconfig"; path = "Pods/Target Support Files/Pods-IJKMedia/Pods-IJKMedia.release.xcconfig"; sourceTree = "<group>"; };
+		524D7CB6FA147E28D6D119AA /* libPods-IJKMediaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IJKMediaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB0B6E97F11782113ED2AB2 /* libPods-IJKMedia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IJKMedia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DDA4BD71770DE2E1FADF95 /* Pods-IJKMediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IJKMediaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IJKMediaUITests/Pods-IJKMediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2E172F30ED152F13D7E9066 /* Pods-IJKMediaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IJKMediaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IJKMediaTests/Pods-IJKMediaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD12B94A2282697700A9041C /* IJKMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IJKMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD12B94D2282697700A9041C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD12B94E2282697700A9041C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD12B9502282697700A9041C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD12B9512282697700A9041C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD12B9542282697700A9041C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD12B9562282697900A9041C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD12B9592282697900A9041C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD12B95B2282697900A9041C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD12B95C2282697900A9041C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD12B9622282697900A9041C /* IJKMediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IJKMediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD12B9662282697900A9041C /* IJKMediaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJKMediaTests.m; sourceTree = "<group>"; };
+		DD12B9682282697900A9041C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD12B96D2282697900A9041C /* IJKMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IJKMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD12B9712282697900A9041C /* IJKMediaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJKMediaUITests.m; sourceTree = "<group>"; };
+		DD12B9732282697900A9041C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD12B97F228269A000A9041C /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		DD12B98222826B4200A9041C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DD12B98422826B5100A9041C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		DD12B98622826B5900A9041C /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		DD12B98822826B6C00A9041C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DD12B98A22826B7400A9041C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD12B98C22826B7D00A9041C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD12B98E22826B8200A9041C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DD12B99022826B8800A9041C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DD12B99222826B8D00A9041C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DD12B99422826B9200A9041C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DD12B99622826B9900A9041C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DD12B99822826BA500A9041C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DD12B99A22826BAB00A9041C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DD12B99C22826BB200A9041C /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD12B9472282697700A9041C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD12B99D22826BB200A9041C /* VideoToolbox.framework in Frameworks */,
+				DD12B99B22826BAB00A9041C /* QuartzCore.framework in Frameworks */,
+				DD12B99922826BA500A9041C /* OpenGLES.framework in Frameworks */,
+				DD12B99722826B9900A9041C /* MobileCoreServices.framework in Frameworks */,
+				DD12B99522826B9200A9041C /* MediaPlayer.framework in Frameworks */,
+				DD12B99322826B8D00A9041C /* CoreVideo.framework in Frameworks */,
+				DD12B99122826B8800A9041C /* CoreMedia.framework in Frameworks */,
+				DD12B98F22826B8200A9041C /* AVFoundation.framework in Frameworks */,
+				DD12B98D22826B7D00A9041C /* CoreGraphics.framework in Frameworks */,
+				DD12B98B22826B7400A9041C /* UIKit.framework in Frameworks */,
+				DD12B98922826B6C00A9041C /* AudioToolbox.framework in Frameworks */,
+				DD12B98722826B5900A9041C /* libbz2.tbd in Frameworks */,
+				DD12B98522826B5100A9041C /* libc++.tbd in Frameworks */,
+				DD12B98322826B4200A9041C /* libz.tbd in Frameworks */,
+				DD12B980228269A000A9041C /* IJKMediaFramework.framework in Frameworks */,
+				4D2C99D17F63349FF310B5E3 /* libPods-IJKMedia.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD12B95F2282697900A9041C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DAE80FC17921F7895D7831 /* libPods-IJKMediaTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD12B96A2282697900A9041C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED1C7B41F4D844FBED34096 /* libPods-IJKMediaUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C67EC8B0E0598277AEA4D7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				301AC0443AE4B7BD38A70E33 /* Pods-IJKMedia.debug.xcconfig */,
+				4F13D453A4C8690A6479FAEF /* Pods-IJKMedia.release.xcconfig */,
+				D2E172F30ED152F13D7E9066 /* Pods-IJKMediaTests.debug.xcconfig */,
+				157E208E47C14792299B9721 /* Pods-IJKMediaTests.release.xcconfig */,
+				96DDA4BD71770DE2E1FADF95 /* Pods-IJKMediaUITests.debug.xcconfig */,
+				025B8E758EA84F65E083825C /* Pods-IJKMediaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD12B9412282697700A9041C = {
+			isa = PBXGroup;
+			children = (
+				DD12B94C2282697700A9041C /* IJKMedia */,
+				DD12B9652282697900A9041C /* IJKMediaTests */,
+				DD12B9702282697900A9041C /* IJKMediaUITests */,
+				DD12B94B2282697700A9041C /* Products */,
+				DD12B98122826B4200A9041C /* Frameworks */,
+				5C67EC8B0E0598277AEA4D7E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DD12B94B2282697700A9041C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD12B94A2282697700A9041C /* IJKMedia.app */,
+				DD12B9622282697900A9041C /* IJKMediaTests.xctest */,
+				DD12B96D2282697900A9041C /* IJKMediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD12B94C2282697700A9041C /* IJKMedia */ = {
+			isa = PBXGroup;
+			children = (
+				DD12B97F228269A000A9041C /* IJKMediaFramework.framework */,
+				DD12B94D2282697700A9041C /* AppDelegate.h */,
+				DD12B94E2282697700A9041C /* AppDelegate.m */,
+				DD12B9502282697700A9041C /* ViewController.h */,
+				DD12B9512282697700A9041C /* ViewController.m */,
+				DD12B9532282697700A9041C /* Main.storyboard */,
+				DD12B9562282697900A9041C /* Assets.xcassets */,
+				DD12B9582282697900A9041C /* LaunchScreen.storyboard */,
+				DD12B95B2282697900A9041C /* Info.plist */,
+				DD12B95C2282697900A9041C /* main.m */,
+			);
+			path = IJKMedia;
+			sourceTree = "<group>";
+		};
+		DD12B9652282697900A9041C /* IJKMediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD12B9662282697900A9041C /* IJKMediaTests.m */,
+				DD12B9682282697900A9041C /* Info.plist */,
+			);
+			path = IJKMediaTests;
+			sourceTree = "<group>";
+		};
+		DD12B9702282697900A9041C /* IJKMediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD12B9712282697900A9041C /* IJKMediaUITests.m */,
+				DD12B9732282697900A9041C /* Info.plist */,
+			);
+			path = IJKMediaUITests;
+			sourceTree = "<group>";
+		};
+		DD12B98122826B4200A9041C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD12B99C22826BB200A9041C /* VideoToolbox.framework */,
+				DD12B99A22826BAB00A9041C /* QuartzCore.framework */,
+				DD12B99822826BA500A9041C /* OpenGLES.framework */,
+				DD12B99622826B9900A9041C /* MobileCoreServices.framework */,
+				DD12B99422826B9200A9041C /* MediaPlayer.framework */,
+				DD12B99222826B8D00A9041C /* CoreVideo.framework */,
+				DD12B99022826B8800A9041C /* CoreMedia.framework */,
+				DD12B98E22826B8200A9041C /* AVFoundation.framework */,
+				DD12B98C22826B7D00A9041C /* CoreGraphics.framework */,
+				DD12B98A22826B7400A9041C /* UIKit.framework */,
+				DD12B98822826B6C00A9041C /* AudioToolbox.framework */,
+				DD12B98622826B5900A9041C /* libbz2.tbd */,
+				DD12B98422826B5100A9041C /* libc++.tbd */,
+				DD12B98222826B4200A9041C /* libz.tbd */,
+				6DB0B6E97F11782113ED2AB2 /* libPods-IJKMedia.a */,
+				22A8C7C56E0176AA6E5579F9 /* libPods-IJKMediaTests.a */,
+				524D7CB6FA147E28D6D119AA /* libPods-IJKMediaUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD12B9492282697700A9041C /* IJKMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD12B9762282697900A9041C /* Build configuration list for PBXNativeTarget "IJKMedia" */;
+			buildPhases = (
+				B7355DB083AF1A4E81C79BE3 /* [CP] Check Pods Manifest.lock */,
+				DD12B9462282697700A9041C /* Sources */,
+				DD12B9472282697700A9041C /* Frameworks */,
+				DD12B9482282697700A9041C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IJKMedia;
+			productName = IJKMedia;
+			productReference = DD12B94A2282697700A9041C /* IJKMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD12B9612282697900A9041C /* IJKMediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD12B9792282697900A9041C /* Build configuration list for PBXNativeTarget "IJKMediaTests" */;
+			buildPhases = (
+				2DB2888A8DF13FA0DD6D1302 /* [CP] Check Pods Manifest.lock */,
+				DD12B95E2282697900A9041C /* Sources */,
+				DD12B95F2282697900A9041C /* Frameworks */,
+				DD12B9602282697900A9041C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD12B9642282697900A9041C /* PBXTargetDependency */,
+			);
+			name = IJKMediaTests;
+			productName = IJKMediaTests;
+			productReference = DD12B9622282697900A9041C /* IJKMediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD12B96C2282697900A9041C /* IJKMediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD12B97C2282697900A9041C /* Build configuration list for PBXNativeTarget "IJKMediaUITests" */;
+			buildPhases = (
+				815DBE07058378185A713FCD /* [CP] Check Pods Manifest.lock */,
+				DD12B9692282697900A9041C /* Sources */,
+				DD12B96A2282697900A9041C /* Frameworks */,
+				DD12B96B2282697900A9041C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD12B96F2282697900A9041C /* PBXTargetDependency */,
+			);
+			name = IJKMediaUITests;
+			productName = IJKMediaUITests;
+			productReference = DD12B96D2282697900A9041C /* IJKMediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD12B9422282697700A9041C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yqs;
+				TargetAttributes = {
+					DD12B9492282697700A9041C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DD12B9612282697900A9041C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DD12B9492282697700A9041C;
+					};
+					DD12B96C2282697900A9041C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DD12B9492282697700A9041C;
+					};
+				};
+			};
+			buildConfigurationList = DD12B9452282697700A9041C /* Build configuration list for PBXProject "IJKMedia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD12B9412282697700A9041C;
+			productRefGroup = DD12B94B2282697700A9041C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD12B9492282697700A9041C /* IJKMedia */,
+				DD12B9612282697900A9041C /* IJKMediaTests */,
+				DD12B96C2282697900A9041C /* IJKMediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD12B9482282697700A9041C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD12B95A2282697900A9041C /* LaunchScreen.storyboard in Resources */,
+				DD12B9572282697900A9041C /* Assets.xcassets in Resources */,
+				DD12B9552282697700A9041C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD12B9602282697900A9041C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD12B96B2282697900A9041C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DB2888A8DF13FA0DD6D1302 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IJKMediaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		815DBE07058378185A713FCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IJKMediaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7355DB083AF1A4E81C79BE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IJKMedia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD12B9462282697700A9041C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD12B9522282697700A9041C /* ViewController.m in Sources */,
+				DD12B95D2282697900A9041C /* main.m in Sources */,
+				DD12B94F2282697700A9041C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD12B95E2282697900A9041C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD12B9672282697900A9041C /* IJKMediaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD12B9692282697900A9041C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD12B9722282697900A9041C /* IJKMediaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD12B9642282697900A9041C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD12B9492282697700A9041C /* IJKMedia */;
+			targetProxy = DD12B9632282697900A9041C /* PBXContainerItemProxy */;
+		};
+		DD12B96F2282697900A9041C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD12B9492282697700A9041C /* IJKMedia */;
+			targetProxy = DD12B96E2282697900A9041C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD12B9532282697700A9041C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD12B9542282697700A9041C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD12B9582282697900A9041C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD12B9592282697900A9041C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD12B9742282697900A9041C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD12B9752282697900A9041C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD12B9772282697900A9041C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301AC0443AE4B7BD38A70E33 /* Pods-IJKMedia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BRRMBKHNEL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IJKMedia",
+				);
+				INFOPLIST_FILE = IJKMedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yqs.IJKMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD12B9782282697900A9041C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F13D453A4C8690A6479FAEF /* Pods-IJKMedia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BRRMBKHNEL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IJKMedia",
+				);
+				INFOPLIST_FILE = IJKMedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yqs.IJKMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD12B97A2282697900A9041C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E172F30ED152F13D7E9066 /* Pods-IJKMediaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BRRMBKHNEL;
+				INFOPLIST_FILE = IJKMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yqs.IJKMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IJKMedia.app/IJKMedia";
+			};
+			name = Debug;
+		};
+		DD12B97B2282697900A9041C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157E208E47C14792299B9721 /* Pods-IJKMediaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BRRMBKHNEL;
+				INFOPLIST_FILE = IJKMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yqs.IJKMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IJKMedia.app/IJKMedia";
+			};
+			name = Release;
+		};
+		DD12B97D2282697900A9041C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96DDA4BD71770DE2E1FADF95 /* Pods-IJKMediaUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BRRMBKHNEL;
+				INFOPLIST_FILE = IJKMediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yqs.IJKMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IJKMedia;
+			};
+			name = Debug;
+		};
+		DD12B97E2282697900A9041C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 025B8E758EA84F65E083825C /* Pods-IJKMediaUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BRRMBKHNEL;
+				INFOPLIST_FILE = IJKMediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yqs.IJKMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IJKMedia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD12B9452282697700A9041C /* Build configuration list for PBXProject "IJKMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD12B9742282697900A9041C /* Debug */,
+				DD12B9752282697900A9041C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD12B9762282697900A9041C /* Build configuration list for PBXNativeTarget "IJKMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD12B9772282697900A9041C /* Debug */,
+				DD12B9782282697900A9041C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD12B9792282697900A9041C /* Build configuration list for PBXNativeTarget "IJKMediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD12B97A2282697900A9041C /* Debug */,
+				DD12B97B2282697900A9041C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD12B97C2282697900A9041C /* Build configuration list for PBXNativeTarget "IJKMediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD12B97D2282697900A9041C /* Debug */,
+				DD12B97E2282697900A9041C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD12B9422282697700A9041C /* Project object */;
+}
